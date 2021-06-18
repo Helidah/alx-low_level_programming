@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - Prints lowercase letters using only putchar
+ *main - Prints lowercase and uppercase letters using only putchar
  *
- *Description: a program that prints the alphabet in lowercase
+ *Description: a program that prints the alphabet in lowercase and uppercase
  *Return: 0
 */
 int main(void)
