@@ -1,20 +1,18 @@
 #include <stdio.h>
 
 /**
- *main - Prints lowercase letters using only putchar
+ *main - Prints decimal digits
  *
- *Description: Prints lowercase letters using only putchar, except q and e
+ *Description: Prints decimal digits followed by a new line
  *Return: 0
 */
 int main(void)
 {
 	int i;
 
-	for (i = 97; i <= 122; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		if (i == 101 || i == 113)
-			i++;
-		putchar(i);
+		printf("%d", i);
 	}
 	putchar('\n');
 	return (0);
