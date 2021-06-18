@@ -10,12 +10,12 @@ int main(void)
 {
 char c;
 
-while (c = 'a'; c <= 'z')
+for (c = 'a'; c <= 'z';)
 {
 putchar(c);
 c = c + 1;
 }
-while (c = 'A'; c <= 'Z')
+for (c = 'A'; c <= 'Z';)
 {
 putchar(c);
 c = c + 1;
