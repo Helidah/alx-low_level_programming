@@ -6,7 +6,8 @@
  *Description: a program that prints the alphabet in lowercase
  *Return: 0
 */
-int main(void)
+
+void print_alphabet(void)
 {
 char c;
 c = 'a';
@@ -16,6 +17,4 @@ _putchar(c);
 c = c + 1;
 }
 _putchar('\n');
-
-return (0);
 }
