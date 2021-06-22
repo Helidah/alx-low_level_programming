@@ -1,11 +1,10 @@
 #include "holberton.h"
 
 /**
- *main - Prints lowercase letters using only putchar
+ * print_alphabet - Prints the alphabet in lowercase.
  *
- *Description: a program that prints the alphabet in lowercase
- *Return: 0
-*/
+ * Return: Always 0 (Success)
+ */
 
 void print_alphabet(void)
 {
@@ -13,7 +12,7 @@ char c;
 c = 'a';
 while (c <= 'z')
 {
-_putchar(c);
+putchar(c);
 c = c + 1;
 }
 _putchar('\n');
