@@ -1,13 +1,10 @@
 #include "holberton.h"
 
-/*
-* Main - prints a string, followed by a new line using putchar command
-*
-*Description:Using Putchar to print a string
-* Return: 0
-*/
-
-
+/**
+ * main - Prints Holberton as a message using putchar.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 char str[] = "Holberton";
@@ -15,9 +12,9 @@ char str[] = "Holberton";
 int i;
 
 for (i = 0; i <= str[i]; i++)
-
+{
 _putchar(str[i]);
-
+}
 _putchar('\n');
 
 return (0);
