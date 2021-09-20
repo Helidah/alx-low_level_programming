@@ -1,10 +1,6 @@
-~      ð
-         ½       ð
-	 ~è#   HƒÄ              ÿ
-	 ~  ÿ%
-  @ ÿ%
-  h    éàÿÿÿÿ%ú	  h   éÐÿÿÿH 
-               H   ÿÿÿ       ¢      ¢      "       ~~                    ø
-                                                             Ø                                         (                    0                                                                                                                                                      ñÿ                                         0              .     `              A                    W     0             f     ø
-                   à              ™     ð
-me_dummy __frame_dummy_init_array_entry ops.c __FRAME_END__ __JCR_END__ __dso_handle _DYNAMIC __TMC_END__ _GLOBAL_OFFSET_TABLE_ mod _ITM_deregisterTMCloneTable add _edata _fini div __gmon_start__ _end __bss_start mul _Jv_RegisterClasses _ITM_registerTMCloneTable sub __cxa_finalize@@GLIBC_2.2.5 _init ~                      @           Ø     Ø     É                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    8                        ˜@@ 
+#!/bin/bash
+Line 1...
+gcc -fPIC -g -c - wall -pendatic - werror - extra *.c
+
+Line 2...
+gcc -shared -wl, -soname, liball.so -o liball.so *.o -lc
