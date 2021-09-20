@@ -1,6 +1,3 @@
 #!/bin/bash
-Line 1...
 gcc -fPIC -g -c - wall -pendatic - werror - extra *.c
-
-Line 2...
 gcc -shared -wl, -soname, liball.so -o liball.so *.o -lc
